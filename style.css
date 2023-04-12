@@ -30,6 +30,7 @@ h3 {
 }
 /* ESTILOS DE LA NAVBAR SUPERIOR */
 .navbar {
+    
     display: flex;
     justify-content: right;
     background-color: #101010;
@@ -189,4 +190,14 @@ h3 {
 img {
     margin-top: -80px;
     margin-bottom: 50px;
+}
+
+.facebook i {
+    font-size: 24px;
+    color: rgb(39, 39, 252);
+}
+
+.instagram j {
+    font-size: 24px;
+    color: rgb(198, 13, 176);
 }
