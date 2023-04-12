@@ -1,0 +1,162 @@
+/* ESTILOS GLOBALES */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+/* ESTILOS DE ELEMENTOS DEL BODY */
+body {
+    background-color:rgb(34, 34, 34);
+    color: aliceblue;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    }
+
+p {
+    margin-top: -25px;
+    font-size: 48px;
+    color: greenyellow;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 19px;
+    margin-top: -50px;
+    margin-bottom: 100px;
+    color: rgb(147, 146, 146);
+}
+/* ESTILOS DE LA NAVBAR SUPERIOR */
+.navbar {
+    display: flex;
+    justify-content: right;
+    background-color: #101010;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+}
+/* ESTILOS GENERALES DE LOS BOX CENTRALES */
+.box-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-container a {
+    color: aliceblue;
+}
+
+.box-container h3 {
+    margin-top: -5px;
+    color: aliceblue;
+}
+
+.box-container h6 {
+    margin-top: -95px;
+    color: #101010;
+}
+/* ESTILOS INDIVIDUALES DE LOS BOX CENTRALES */
+.box-container .box {
+    height: 150px;
+    width: 250px;
+    background: rgb(19, 199, 19);
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+}
+
+.box-container .box i {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: rgb(34, 34, 34);
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box1 {
+    height: 150px;
+    width: 250px;
+    background: rgb(181, 44, 181);
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+}
+
+.box-container .box1 i {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: rgb(34, 34, 34);
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box2 {
+    height: 150px;
+    width: 250px;
+    background: rgb(255, 214, 8);
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+}
+
+.box-container .box2 i {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: rgb(34, 34, 34);
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+/* ESTILO DEL BOX INFERIOR */
+.box-cont {
+    margin-top: 50px;
+    display: flex;
+    height: 450px;
+    background: #101010;
+    justify-content: center;
+}
+
+.box-cont h3 {
+    margin-top: 25px;
+}
+
+.box-cont p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    margin-top: -80px;
+}
+
+.box-cont img {
+    margin-top: 20px;
+    border-radius: 20px;
+}
+/* ESTILO DEL PIE DE PAGINA */
+#piePag p {
+    color: #fff;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 100;
+    margin-top: 30px;
+}
+/* ESTILO DE LA IMAGEN DE PORTADA */
+img {
+    margin-top: -80px;
+    margin-bottom: 50px;
+}
