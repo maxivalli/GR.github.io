@@ -43,6 +43,30 @@ h3 {
     font-size: 19px;
 }
 /* ESTILOS GENERALES DE LOS BOX CENTRALES */
+.box:hover {
+    transform:translateY(-10px);
+}
+
+.box1:hover {
+    transform:translateY(-10px);
+}
+
+.box2:hover {
+    transform:translateY(-10px);
+}
+
+.box-container .box {
+    transition: transform 0.2s ease-in-out;
+}
+
+.box-container .box1 {
+    transition: transform 0.2s ease-in-out;
+}
+
+.box-container .box2 {
+    transition: transform 0.2s ease-in-out;
+}
+
 .box-container {
     display: flex;
     justify-content: space-around;
