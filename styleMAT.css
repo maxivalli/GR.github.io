@@ -10,7 +10,7 @@ body {
 .navbar {
     display: flex;
     justify-content: right;
-    background-color: #101010;
+    background-color: #343434;
 }
 
 .navbar a {

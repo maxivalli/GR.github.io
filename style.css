@@ -5,46 +5,62 @@
 }
 /* ESTILOS DE ELEMENTOS DEL BODY */
 body {
-    background-color:rgb(34, 34, 34);
+    background: #ffff;
     color: aliceblue;
     text-align: center;
+    margin: 0px;
 }
 
 h1 {
-    font-size: 40px;
+    font-family: 'Designer';
+    font-size: 50px;
+    color: #343434;
     }
 
 p {
     margin-top: -25px;
-    font-size: 48px;
+    font-size: 60px;
+    font-family: 'Designer';
     color: greenyellow;
     font-weight: bold;
 }
 
 h3 {
-    font-weight: lighter;
-    font-size: 19px;
-    margin-top: -50px;
+    font-family: 'Designer';
+    font-size: 20px;
+    margin-top: -60px;
     margin-bottom: 100px;
-    color: rgb(147, 146, 146);
+    color: #bababa;
 }
+
+h4 {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: -60px;
+    margin-bottom: 100px;
+    color: #bababa;  
+}
+
 /* ESTILOS DE LA NAVBAR SUPERIOR */
 .navbar {
     
     display: flex;
     justify-content: right;
-    background-color: #101010;
+    background-color: #343434;
 }
 
 .navbar a {
-    display: block;
-    padding: 20px 10px;
+    display: flex;
+    
+    padding: 20px 5px;
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .navbar a:hover {
+    
     background: rgb(147, 146, 146);
 }
 /* ESTILOS GENERALES DE LOS BOX CENTRALES */
@@ -87,6 +103,7 @@ h3 {
 }
 
 .box-container h6 {
+    font-style: italic;
     margin-top: -95px;
     color: #101010;
 }
@@ -98,7 +115,7 @@ h3 {
     background: rgb(19, 199, 19);
     text-align: center;
     border-radius: 1rem;
-    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    
 }
 
 .box-container .box i {
@@ -117,10 +134,10 @@ h3 {
     height: 150px;
     width: 250px;
     margin-inline: 5px;
-    background: rgb(181, 44, 181);
+    background: rgb(215, 2, 2);
     text-align: center;
     border-radius: 1rem;
-    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    
 }
 
 .box-container .box1 i {
@@ -142,7 +159,7 @@ h3 {
     background: rgb(255, 214, 8);
     text-align: center;
     border-radius: 1rem;
-    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    
 }
 
 .box-container .box2 i {
@@ -158,10 +175,14 @@ h3 {
 }
 /* ESTILO DEL BOX INFERIOR */
 .box-cont {
-    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 50px;
     display: flex;
     height: 450px;
-    background: #101010;
+    background: #343434;
     justify-content: center;
 }
 
@@ -183,7 +204,18 @@ h3 {
     border-radius: 20px;
 }
 /* ESTILO DEL PIE DE PAGINA */
+.bx h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+.bx p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
 #piePag p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
     font-size: 12px;
     font-style: italic;
@@ -191,21 +223,34 @@ h3 {
     margin-top: 30px;
 }
 /* ESTILO DE LA IMAGEN DE PORTADA */
+.port img {
+    margin-top: 45px;
+    border-radius: 20px;
+}
+
 img {
-    margin-top: -80px;
+    margin-top: -60px;
     margin-bottom: 40px;
+    border-radius: 20px;
 }
 
 .navbar i {
-    align-content: center;
+    margin-top: -3px;
     display: flex;
     font-size: 24px;
     color: rgb(39, 39, 252);
 }
 
 .navbar j {
-    align-content: center;
+    margin-top: -3px;
     display: flex;
     font-size: 24px;
     color: rgb(198, 13, 176);
+}
+
+.navbar k {
+    margin-top: -3px;
+    display: flex;
+    font-size: 24px;
+    color: rgb(0, 212, 21);
 }

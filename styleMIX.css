@@ -4,12 +4,13 @@
 }
 
 body {
-    background-color:rgb(181, 44, 181);
+    background-color:rgb(215, 2, 2);
+}
 
 .navbar {
     display: flex;
     justify-content: right;
-    background-color: #101010;
+    background-color: #343434;
 }
 
 .navbar a {

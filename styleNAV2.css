@@ -4,7 +4,8 @@
 }
 
 body {
-    background-color:rgb(255, 255, 255);
+    background: #ffff;
+    margin: 0px;
 }
 
 p {
@@ -17,7 +18,7 @@ p {
 .navbar {
     display: flex;
     justify-content: right;
-    background-color: #101010;
+    background-color: #343434;
 }
 
 .navbar a {
@@ -36,4 +37,15 @@ p {
     display: block;
     margin: 0 auto;
   }
+
+.template p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    color:greenyellow;
+}
+
+
+
+
 
