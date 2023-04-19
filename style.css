@@ -40,13 +40,11 @@ h3 {
 }
 
 h4 {
-    
     font-style: italic;
     font-size: 20px;
     margin-top: -65px;
     margin-bottom: 100px;
     color: #747474; 
-     
 }
 
 /* ESTILOS DE LA NAVBAR SUPERIOR */
@@ -186,11 +184,9 @@ h4 {
     width: 97%;
     border-radius: 20px;
     margin-top: 5px;
-    margin-bottom: 50px;
     display: flex;
     margin: auto;
     background: #343434;
-    
 }
 
 .box-cont h3 {
