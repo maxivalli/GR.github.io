@@ -182,15 +182,15 @@ h4 {
 }
 /* ESTILO DEL BOX INFERIOR */
 .box-cont {
-    margin-left: 20px;
-    margin-right: 20px;
+    justify-content: center;
+    width: 97%;
     border-radius: 20px;
     margin-top: 5px;
     margin-bottom: 50px;
     display: flex;
-    height: 450px;
+    margin: auto;
     background: #343434;
-    justify-content: center;
+    
 }
 
 .box-cont h3 {
