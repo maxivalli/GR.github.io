@@ -12,7 +12,8 @@ body {
 }
 
 h1 {
-    font-family: 'Designer';
+    font-family: 'Audiowide';
+    font-style: italic;
     font-size: 50px;
     color: #343434;
     }
@@ -20,13 +21,15 @@ h1 {
 p {
     margin-top: -25px;
     font-size: 60px;
-    font-family: 'Designer';
+    font-family: 'Audiowide';
+    font-style: italic;
     color: greenyellow;
     font-weight: bold;
 }
 
 h3 {
-    font-family: 'Designer';
+    font-family: 'Audiowide';
+    font-style: italic;
     font-size: 20px;
     margin-top: -60px;
     margin-bottom: 100px;
