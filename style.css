@@ -175,8 +175,8 @@ h4 {
 }
 /* ESTILO DEL BOX INFERIOR */
 .box-cont {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     border-radius: 20px;
     margin-top: 5px;
     margin-bottom: 50px;
@@ -223,14 +223,18 @@ h4 {
     margin-top: 30px;
 }
 /* ESTILO DE LA IMAGEN DE PORTADA */
+.port1 img {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
 .port img {
-    margin-top: 45px;
+    margin-top: 75px;
     border-radius: 20px;
 }
 
 img {
-    margin-top: -60px;
-    margin-bottom: 40px;
+    margin-top: -40px;
+    margin-bottom: 70px;
     border-radius: 20px;
 }
 
