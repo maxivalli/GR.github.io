@@ -16,6 +16,7 @@ h1 {
     font-style: italic;
     font-size: 50px;
     color: #343434;
+    
     }
 
 p {
@@ -25,6 +26,7 @@ p {
     font-style: italic;
     color: greenyellow;
     font-weight: bold;
+    
 }
 
 h3 {
@@ -34,15 +36,17 @@ h3 {
     margin-top: -60px;
     margin-bottom: 100px;
     color: #bababa;
+    
 }
 
 h4 {
-    font-weight: lighter;
+    
     font-style: italic;
     font-size: 20px;
     margin-top: -60px;
     margin-bottom: 100px;
-    color: #bababa;  
+    color: #747474; 
+     
 }
 
 /* ESTILOS DE LA NAVBAR SUPERIOR */
@@ -55,7 +59,7 @@ h4 {
 
 .navbar a {
     display: flex;
-    
+    margin-right: 10px;
     padding: 20px 5px;
     color: #fff;
     text-decoration: none;
@@ -210,16 +214,18 @@ h4 {
 .bx h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;
+    font-style: normal;
 }
 
 .bx p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;
+    text-decoration: underline;
 }
 
 #piePag p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #fff;
+    color: #343434;
     font-size: 12px;
     font-style: italic;
     font-weight: 100;
@@ -228,7 +234,7 @@ h4 {
 /* ESTILO DE LA IMAGEN DE PORTADA */
 .port1 img {
     margin-top: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 .port img {
     margin-top: 75px;
@@ -236,7 +242,7 @@ h4 {
 }
 
 img {
-    margin-top: -40px;
+    margin-top: -30px;
     margin-bottom: 70px;
     border-radius: 20px;
 }
