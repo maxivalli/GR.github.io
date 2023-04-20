@@ -19,6 +19,7 @@ h1 {
     font-style: italic;
     font-size: 50px;
     color: #343434;
+    font-weight: bolder;
 
 }
 
@@ -28,7 +29,7 @@ p {
     font-family: 'Audiowide';
     font-style: italic;
     color: greenyellow;
-    font-weight: bold;
+    font-weight: bolder;
 
 }
 
@@ -72,27 +73,32 @@ h4 {
     background: rgb(147, 146, 146);
 }
 
-.animacion2 i {
-    transform: scaleX(-1);
-}
-
-.animacion2 {
-    font-size: 40px;
-    margin-top: -90px;
-    margin-bottom: 35px;
+.animacion {
+    font-size: 23px;
+    margin-top: -172px;
+    margin-bottom: 150px;
+    margin-left: 303px;
     color: #343434;
     animation: mover2 10s linear infinite;
-  }
-  
-  @keyframes mover2 {
-    0% {
-      transform: translateX(50%);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
 }
-  
+
+.animacion {
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    100% { transform: rotate(360deg); }
+}
 
 /* ESTILOS GENERALES DE LOS BOX CENTRALES */
 .box:hover {
