@@ -68,6 +68,56 @@ h4 {
     
     background: rgb(147, 146, 146);
 }
+
+.truck i {
+    display: flex;
+    margin-top: -25px;
+    margin-bottom: -25px;
+    color: #b89000;
+    font-size: 40px;
+}
+
+@keyframes desplazamiento {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+
+  .truck {
+    animation-name: desplazamiento;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  .truck2 i {
+    display: flex;
+    transform: scaleX(-1);
+    margin-top: -85px;
+    margin-bottom: 35px;
+    color: #7c0000;
+    font-size: 40px;
+  }
+
+@keyframes desplazamiento2 {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+}
+
+.truck2 {
+    animation-name: desplazamiento2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
 /* ESTILOS GENERALES DE LOS BOX CENTRALES */
 .box:hover {
     transform:translateY(-10px);
