@@ -3,12 +3,15 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
 }
+
 /* ESTILOS DE ELEMENTOS DEL BODY */
 body {
+    padding: 0;
     background: #ffff;
     color: aliceblue;
     text-align: center;
-    margin: 0px;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -16,8 +19,8 @@ h1 {
     font-style: italic;
     font-size: 50px;
     color: #343434;
-    
-    }
+
+}
 
 p {
     margin-top: -25px;
@@ -26,7 +29,7 @@ p {
     font-style: italic;
     color: greenyellow;
     font-weight: bold;
-    
+
 }
 
 h3 {
@@ -36,7 +39,7 @@ h3 {
     margin-top: -60px;
     margin-bottom: 100px;
     color: #bababa;
-    
+
 }
 
 h4 {
@@ -44,12 +47,12 @@ h4 {
     font-size: 20px;
     margin-top: -65px;
     margin-bottom: 100px;
-    color: #747474; 
+    color: #747474;
 }
 
 /* ESTILOS DE LA NAVBAR SUPERIOR */
 .navbar {
-    
+
     display: flex;
     justify-content: right;
     background-color: #343434;
@@ -65,70 +68,43 @@ h4 {
 }
 
 .navbar a:hover {
-    
+
     background: rgb(147, 146, 146);
 }
 
-.truck i {
-    display: flex;
-    margin-top: -25px;
-    margin-bottom: -25px;
-    color: #b89000;
-    font-size: 40px;
-}
-
-@keyframes desplazamiento {
-    from {
-      transform: translateX(-100%);
-    }
-    to {
-      transform: translateX(100%);
-    }
-  }
-
-  .truck {
-    animation-name: desplazamiento;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-  }
-
-  .truck2 i {
-    display: flex;
+.animacion2 i {
     transform: scaleX(-1);
-    margin-top: -85px;
-    margin-bottom: 35px;
-    color: #7c0000;
+}
+
+.animacion2 {
     font-size: 40px;
+    margin-top: -90px;
+    margin-bottom: 35px;
+    color: #343434;
+    animation: mover2 10s linear infinite;
   }
-
-@keyframes desplazamiento2 {
-    from {
-      transform: translateX(100%);
+  
+  @keyframes mover2 {
+    0% {
+      transform: translateX(50%);
     }
-    to {
-      transform: translateX(-100%);
+    100% {
+      transform: translateX(-50%);
     }
 }
-
-.truck2 {
-    animation-name: desplazamiento2;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
+  
 
 /* ESTILOS GENERALES DE LOS BOX CENTRALES */
 .box:hover {
-    transform:translateY(-10px);
+    transform: translateY(-10px);
 }
 
 .box1:hover {
-    transform:translateY(-10px);
+    transform: translateY(-10px);
 }
 
 .box2:hover {
-    transform:translateY(-10px);
+    transform: translateY(-10px);
 }
 
 .box-container .box {
@@ -163,6 +139,7 @@ h4 {
     margin-top: -95px;
     color: #101010;
 }
+
 /* ESTILOS INDIVIDUALES DE LOS BOX CENTRALES */
 .box-container .box {
     height: 150px;
@@ -171,7 +148,7 @@ h4 {
     background: rgb(19, 199, 19);
     text-align: center;
     border-radius: 1rem;
-    
+
 }
 
 .box-container .box i {
@@ -193,7 +170,7 @@ h4 {
     background: rgb(215, 2, 2);
     text-align: center;
     border-radius: 1rem;
-    
+
 }
 
 .box-container .box1 i {
@@ -215,7 +192,7 @@ h4 {
     background: rgb(255, 214, 8);
     text-align: center;
     border-radius: 1rem;
-    
+
 }
 
 .box-container .box2 i {
@@ -229,6 +206,7 @@ h4 {
     font-size: 2rem;
     margin: 1rem 0;
 }
+
 /* ESTILO DEL BOX INFERIOR */
 .box-cont {
     justify-content: center;
@@ -257,6 +235,7 @@ h4 {
     margin-top: 20px;
     border-radius: 20px;
 }
+
 /* ESTILO DEL PIE DE PAGINA */
 .bx h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -278,11 +257,13 @@ h4 {
     font-weight: 100;
     margin-top: 30px;
 }
+
 /* ESTILO DE LA IMAGEN DE PORTADA */
 .port1 img {
     margin-top: 15px;
     margin-bottom: 25px;
 }
+
 .port img {
     margin-top: 75px;
     border-radius: 20px;
